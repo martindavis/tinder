@@ -87,6 +87,13 @@ RUN /bin/bash -l -c "gem install bundler --no-ri --no-rdoc"
 CMD /bin/bash -l
 
 ######################
+# Expose Services
+######################
+EXPOSE 80
+EXPOSE 443
+EXPOSE 8080
+
+######################
 # TODO
 ######################
 # libsass
